@@ -1,0 +1,17 @@
+{     
+	"manifest_version": 1.0,
+   	"id": "agent-versions",
+   	"name": "Agent Versions",
+   	"version": "1.0",
+   	"namespace": "agentversions",
+"description": "Export agent versions for all hosts, under Reports->Agent Versions",
+	"actions": {
+		"agent.versions": {
+			"class": "AgentVersions",
+			"view": "agent.versions"
+		},
+		"versions.export":{
+			"class": "ExportVersions"
+		}
+	}
+}
