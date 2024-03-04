@@ -4,7 +4,7 @@
    	"name": "Agent Versions",
    	"version": "1.0",
    	"namespace": "agentversions",
-"description": "Export agent versions for all hosts, under Reports->Agent Versions",
+   	"description": "Export agent versions for all hosts, under Reports->Agent Versions",
 	"actions": {
 		"agent.versions": {
 			"class": "AgentVersions",
