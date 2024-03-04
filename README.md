@@ -1,5 +1,7 @@
 # Agent Versions front end Module 
 
+This module adds a new view to Zabbix front end where you can view and export agent versions for all hosts.
+
 This module is compatible with Zabbix 6.0.
 
 ## Install
